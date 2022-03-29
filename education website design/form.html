@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Register Form</title>
+</head>
+<body>
+    <div class="card">
+        <div class="konten">
+            <div class="judul">
+                <h2>REGISTER</h2>
+            </div>
+            <div class="isi">
+                <form action="form.php" method="post">
+                    <table>
+                        <tbody>
+                          <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><input type="email" name="tmail" class="texter" autocomplete="on" required></td>
+                          </tr>
+                          <tr>
+                            <td>Username</td>
+                            <td>:</td>
+                            <td><input type="text" name="tusername" class="texter" autocomplete="on" required></td>
+                          </tr>
+                          <tr>
+                            <td>Password</td>
+                            <td>:</td>
+                            <td><input type="password" name="tpassword" class="texter" autocomplete="on" required></td>
+                          </tr>
+                          <tr>
+                            <td>Confirm Password</td>
+                            <td>:</td>
+                            <td><input type="password" name="username" class="texter" autocomplete="on" required></td>
+                          </tr>
+                          <tr>
+                            <td style="text-align: left;" class="kelas" colspan="3">
+                                <input type="checkbox" id="kelas1" name="kelas[]" value="HTML dan CSS">
+                                <label for="kelas1"> HTML dan CSS</label><br>
+                                <input type="checkbox" id="kelas2" name="kelas[]" value="Python For Data Scient">
+                                <label for="kelas2"> Python For Data Scient</label><br>
+                                <input type="checkbox" id="kelas3" name="kelas[]" value="javascript Pemula">
+                                <label for="kelas3">Javascript Pemula</label>
+                          </tr>
+                          <tr>
+                            <td colspan="3"><input type="submit" value="BUAT" class="input"></td>
+                          </tr>
+                        </tbody>
+                        </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
